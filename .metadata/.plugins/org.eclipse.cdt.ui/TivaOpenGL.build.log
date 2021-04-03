@@ -1,0 +1,42 @@
+
+**** Build of configuration Debug for project TivaOpenGL ****
+
+"C:\\ti\\ccs1011\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="//FILE/Userspprl33/Home/My Documents/Unrelated/Tiva3DEngine/TivaOpenGL" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="//file/Userspprl33/Home/My Documents/Unrelated/cglm" --include_path="C:/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building: "../main.c"
+ 
+Building target: "TivaOpenGL.out"
+Invoking: ARM Linker
+"C:/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TivaOpenGL.map" --heap_size=0 --stack_size=512 -i"C:/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/lib" -i"C:/ti/ccs1011/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TivaOpenGL_linkInfo.xml" --rom_model -o "TivaOpenGL.out" "./buttons4.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "./OrbitOLED/OrbitOLEDInterface.obj" "./OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./OrbitOLED/lib_OrbitOled/FillPat.obj" "./OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./OrbitOLED/lib_OrbitOled/delay.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Finished building target: "TivaOpenGL.out"
+ 
+\\FILE\Usersp$\prl33\Home\My Documents\Unrelated\Tiva3DEngine\TivaOpenGL\Debug
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+
+**** Build Finished ****
